@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */; };
+		4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E139272113B700E66E2E /* JSONEncoderExample.swift */; };
+		4A96E13C272113C800E66E2E /* JSONSerializationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */; };
+		4A96E1402721141500E66E2E /* TryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E13F2721141500E66E2E /* TryExample.swift */; };
 		4AC0447C2717A3960060FB8D /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0447B2717A3960060FB8D /* FocusView.swift */; };
 		4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */; };
 		4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46E2707E294009067C3 /* ContentView.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderExample.swift; sourceTree = "<group>"; };
+		4A96E139272113B700E66E2E /* JSONEncoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoderExample.swift; sourceTree = "<group>"; };
+		4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializationExample.swift; sourceTree = "<group>"; };
+		4A96E13F2721141500E66E2E /* TryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryExample.swift; sourceTree = "<group>"; };
 		4AC0447B2717A3960060FB8D /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 		4AC6A4692707E294009067C3 /* SwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExamplesApp.swift; sourceTree = "<group>"; };
@@ -58,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A96E1362720F1F300E66E2E /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */,
+				4A96E139272113B700E66E2E /* JSONEncoderExample.swift */,
+				4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */,
+				4A96E13F2721141500E66E2E /* TryExample.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		4AC6A4602707E294009067C3 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +98,9 @@
 			children = (
 				4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */,
 				4AC6A46E2707E294009067C3 /* ContentView.swift */,
-				4AC6A47D2707E674009067C3 /* Misc */,
 				4AC6A47A2707E2B2009067C3 /* Gestures */,
+				4AC6A47D2707E674009067C3 /* Misc */,
+				4A96E1362720F1F300E66E2E /* Functions */,
 				4AC6A4922708C7CC009067C3 /* CameraView.swift */,
 				4AC6A48E270854AD009067C3 /* TestView.swift */,
 				4AC6A4702707E298009067C3 /* Assets.xcassets */,
@@ -194,14 +214,18 @@
 			files = (
 				4AC6A48F270854AD009067C3 /* TestView.swift in Sources */,
 				4AC6A4932708C7CC009067C3 /* CameraView.swift in Sources */,
+				4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */,
 				4AC6A4872707FBF6009067C3 /* DragGestureView.swift in Sources */,
 				4AC6A4812707E974009067C3 /* TimerView.swift in Sources */,
+				4A96E13C272113C800E66E2E /* JSONSerializationExample.swift in Sources */,
 				4AC6A48B270848CE009067C3 /* MagnificationGestureView.swift in Sources */,
+				4A96E1402721141500E66E2E /* TryExample.swift in Sources */,
 				4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */,
 				4AC6A4852707FB68009067C3 /* LongPressGestureView.swift in Sources */,
 				4AC6A4912708B320009067C3 /* TabViewView.swift in Sources */,
 				4AC6A48D270850ED009067C3 /* RotationGestureView.swift in Sources */,
 				4AC6A47F2707E699009067C3 /* GeometryReaderView.swift in Sources */,
+				4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */,
 				4AC6A47C2707E2D5009067C3 /* TapGestureView.swift in Sources */,
 				4AC6A489270840A0009067C3 /* DragGestureView2.swift in Sources */,
 				4AC6A4832707F446009067C3 /* OnDeleteView.swift in Sources */,
