@@ -29,6 +29,7 @@ struct ContentView: View {
                         ExampleLink(destination: PaddingExample())
                         ExampleLink(destination: ColorExample())
                         ExampleLink(destination: FrameExample())
+                        ExampleLink(destination: FontExample())
                     }
                     
                     Section(header: Text("Modidfiers").bold().font(.title2)) {
