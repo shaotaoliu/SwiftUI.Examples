@@ -66,6 +66,7 @@ struct ButtonView: View {
                 .foregroundColor(.white)
                 .background(.blue)
                 .cornerRadius(10)
+                .shadow(radius: 10)
             }
             
             VStack(alignment: .leading) {

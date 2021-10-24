@@ -13,6 +13,9 @@
 		4A96E1402721141500E66E2E /* TryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E13F2721141500E66E2E /* TryExample.swift */; };
 		4A96E14C2721F14800E66E2E /* LocalizedErrorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E14B2721F14800E66E2E /* LocalizedErrorExample.swift */; };
 		4A96E14F27221EFB00E66E2E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E14E27221EFB00E66E2E /* ButtonView.swift */; };
+		4A96E1B82724C9F100E66E2E /* ColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1B72724C9F100E66E2E /* ColorExample.swift */; };
+		4A96E1BA2724DCE400E66E2E /* FrameExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1B92724DCE400E66E2E /* FrameExample.swift */; };
+		4A96E1BC2724E35900E66E2E /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1BB2724E35900E66E2E /* ScrollViewExample.swift */; };
 		4AC0447C2717A3960060FB8D /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0447B2717A3960060FB8D /* FocusView.swift */; };
 		4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */; };
 		4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46E2707E294009067C3 /* ContentView.swift */; };
@@ -29,7 +32,7 @@
 		4AC6A48D270850ED009067C3 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A48C270850ED009067C3 /* RotationGestureView.swift */; };
 		4AC6A48F270854AD009067C3 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A48E270854AD009067C3 /* TestView.swift */; };
 		4AC6A4912708B320009067C3 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A4902708B320009067C3 /* TabViewView.swift */; };
-		4AC6A4932708C7CC009067C3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A4922708C7CC009067C3 /* CameraView.swift */; };
+		4AC6A4932708C7CC009067C3 /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A4922708C7CC009067C3 /* PaddingExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		4A96E13F2721141500E66E2E /* TryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryExample.swift; sourceTree = "<group>"; };
 		4A96E14B2721F14800E66E2E /* LocalizedErrorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedErrorExample.swift; sourceTree = "<group>"; };
 		4A96E14E27221EFB00E66E2E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		4A96E1B72724C9F100E66E2E /* ColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExample.swift; sourceTree = "<group>"; };
+		4A96E1B92724DCE400E66E2E /* FrameExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExample.swift; sourceTree = "<group>"; };
+		4A96E1BB2724E35900E66E2E /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
 		4AC0447B2717A3960060FB8D /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 		4AC6A4692707E294009067C3 /* SwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExamplesApp.swift; sourceTree = "<group>"; };
@@ -56,7 +62,7 @@
 		4AC6A48C270850ED009067C3 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
 		4AC6A48E270854AD009067C3 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		4AC6A4902708B320009067C3 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
-		4AC6A4922708C7CC009067C3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4AC6A4922708C7CC009067C3 /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,28 @@
 			children = (
 				4AC6A4902708B320009067C3 /* TabViewView.swift */,
 				4A96E14E27221EFB00E66E2E /* ButtonView.swift */,
-				4AC0447B2717A3960060FB8D /* FocusView.swift */,
-				4AC6A4822707F446009067C3 /* OnDeleteView.swift */,
+				4A96E1BB2724E35900E66E2E /* ScrollViewExample.swift */,
 			);
 			path = Controls;
+			sourceTree = "<group>";
+		};
+		4A96E1B62724C32200E66E2E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6A4922708C7CC009067C3 /* PaddingExample.swift */,
+				4A96E1B72724C9F100E66E2E /* ColorExample.swift */,
+				4A96E1B92724DCE400E66E2E /* FrameExample.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		4A96E1BD2724EC5D00E66E2E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6A4822707F446009067C3 /* OnDeleteView.swift */,
+				4AC0447B2717A3960060FB8D /* FocusView.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		4AC6A4602707E294009067C3 = {
@@ -124,9 +148,10 @@
 				4AC6A46E2707E294009067C3 /* ContentView.swift */,
 				4A96E14D27221EC600E66E2E /* Controls */,
 				4AC6A47A2707E2B2009067C3 /* Gestures */,
+				4A96E1B62724C32200E66E2E /* Styles */,
+				4A96E1BD2724EC5D00E66E2E /* Modifiers */,
 				4AC6A47D2707E674009067C3 /* Misc */,
 				4A96E1362720F1F300E66E2E /* Functions */,
-				4AC6A4922708C7CC009067C3 /* CameraView.swift */,
 				4AC6A48E270854AD009067C3 /* TestView.swift */,
 				4AC6A4702707E298009067C3 /* Assets.xcassets */,
 				4AC6A4722707E298009067C3 /* Preview Content */,
@@ -234,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A96E1B82724C9F100E66E2E /* ColorExample.swift in Sources */,
 				4AC6A48F270854AD009067C3 /* TestView.swift in Sources */,
-				4AC6A4932708C7CC009067C3 /* CameraView.swift in Sources */,
+				4AC6A4932708C7CC009067C3 /* PaddingExample.swift in Sources */,
 				4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */,
 				4A96E14F27221EFB00E66E2E /* ButtonView.swift in Sources */,
 				4A96E14C2721F14800E66E2E /* LocalizedErrorExample.swift in Sources */,
@@ -243,6 +269,7 @@
 				4AC6A4812707E974009067C3 /* TimerView.swift in Sources */,
 				4A96E13C272113C800E66E2E /* JSONSerializationExample.swift in Sources */,
 				4AC6A48B270848CE009067C3 /* MagnificationGestureView.swift in Sources */,
+				4A96E1BA2724DCE400E66E2E /* FrameExample.swift in Sources */,
 				4A96E1402721141500E66E2E /* TryExample.swift in Sources */,
 				4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */,
 				4AC6A4852707FB68009067C3 /* LongPressGestureView.swift in Sources */,
@@ -252,6 +279,7 @@
 				4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */,
 				4AC6A47C2707E2D5009067C3 /* TapGestureView.swift in Sources */,
 				4AC6A489270840A0009067C3 /* DragGestureView2.swift in Sources */,
+				4A96E1BC2724E35900E66E2E /* ScrollViewExample.swift in Sources */,
 				4AC6A4832707F446009067C3 /* OnDeleteView.swift in Sources */,
 				4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */,
 				4AC0447C2717A3960060FB8D /* FocusView.swift in Sources */,

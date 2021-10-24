@@ -2,66 +2,61 @@ import SwiftUI
 
 struct ContentView: View {
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.font: UIFont(name: "ChalkboardSE-Bold", size: 25)!]
+    }
+
     var body: some View {
         NavigationView {
-            List {
-                Section(header: Text("Gesture")
-                            .bold()
-                            .font(.title)) {
-                    NavigationLink(destination: TapGestureView()) {
-                        Text("TapGesture")
+            VStack {
+                List {
+                    Section(header: Text("Gestures").bold().font(.title2)) {
+                        ExampleLink(destination: TapGestureView())
+                        ExampleLink(destination: LongPressGestureView())
+                        ExampleLink(destination: DragGestureView())
+                        ExampleLink(destination: DragGestureView2())
+                        ExampleLink(destination: RotationGestureView())
+                        ExampleLink(destination: MagnificationGestureView())
                     }
                     
-                    NavigationLink(destination: LongPressGestureView()) {
-                        Text("LongPressGesture")
+                    Section(header: Text("Controls").bold().font(.title2)) {
+                        ExampleLink(destination: TabViewView())
+                        ExampleLink(destination: ButtonView())
+                        ExampleLink(destination: ScrollViewExample())
                     }
                     
-                    NavigationLink(destination: DragGestureView()) {
-                        Text("DragGesture")
+                    Section(header: Text("Styles").bold().font(.title2)) {
+                        ExampleLink(destination: PaddingExample())
+                        ExampleLink(destination: ColorExample())
+                        ExampleLink(destination: FrameExample())
                     }
                     
-                    NavigationLink(destination: DragGestureView2()) {
-                        Text("DragGesture 2")
+                    Section(header: Text("Modidfiers").bold().font(.title2)) {
+                        ExampleLink(destination: OnDeleteView())
+                        ExampleLink(destination: FocusView())
                     }
                     
-                    NavigationLink(destination: RotationGestureView()) {
-                        Text("RotationGesture")
-                    }
-                    
-                    NavigationLink(destination: MagnificationGestureView()) {
-                        Text("MagnificationGesture")
+                    Section(header: Text("Misc").bold().font(.title2)) {
+                        ExampleLink(destination: GeometryReaderView())
+                        ExampleLink(destination: TimerView())
                     }
                 }
-                
-                Section(header: Text("Other")
-                            .bold()
-                            .font(.title)) {
-                    NavigationLink(destination: GeometryReaderView()) {
-                        Text("GeometryReader")
-                    }
-                    
-                    NavigationLink(destination: TimerView()) {
-                        Text("Timer")
-                    }
-                    
-                    NavigationLink(destination: OnDeleteView()) {
-                        Text("OnDelete")
-                    }
-                    
-                    NavigationLink(destination: TabViewView()) {
-                        Text("TabView")
-                    }
-                    
-                    NavigationLink(destination: FocusView()) {
-                        Text("Focus")
-                    }
-                }
+                .navigationTitle("SwiftUI Examples")
             }
-            .navigationTitle("SwiftUI Examples")
             
             Spacer()
         }
         
+    }
+    
+    struct ExampleLink<Destination: View>: View {
+        let destination: Destination
+        var body: some View {
+            NavigationLink(destination: destination) {
+                let name: String = "\(Destination.self)"
+                Text(name)
+            }
+        }
     }
 }
 
