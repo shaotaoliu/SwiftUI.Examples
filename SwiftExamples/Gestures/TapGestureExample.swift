@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TapGestureView: View {
+struct TapGestureExample: View {
     
     @State private var tapped = false
     
@@ -19,8 +19,8 @@ struct TapGestureView: View {
     }
 }
 
-struct TapGestureView_Previews: PreviewProvider {
+struct TapGestureExample_Previews: PreviewProvider {
     static var previews: some View {
-        TapGestureView()
+        TapGestureExample()
     }
 }

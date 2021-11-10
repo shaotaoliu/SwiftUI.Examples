@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct DragGestureView: View {
+struct DragGestureExample: View {
     
     @State private var dragging = false
     @State private var dragOffset: CGSize = .zero
@@ -36,8 +36,8 @@ struct DragGestureView: View {
     
 }
 
-struct DragGestureView_Previews: PreviewProvider {
+struct DragGestureExample_Previews: PreviewProvider {
     static var previews: some View {
-        DragGestureView()
+        DragGestureExample()
     }
 }

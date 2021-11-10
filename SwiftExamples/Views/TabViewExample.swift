@@ -1,14 +1,14 @@
 import SwiftUI
 
-struct TabViewView: View {
+struct TabViewExample: View {
     
     enum Tabs: Int {
-        case TapGestureView
-        case LongPressGestureView
-        case DragGestureView
+        case TapGestureExample
+        case LongPressGestureExample
+        case DragGestureExample
     }
     
-    @State private var selectedTab = Tabs.TapGestureView
+    @State private var selectedTab = Tabs.TapGestureExample
     
     var body: some View {
         VStack {
@@ -18,30 +18,30 @@ struct TabViewView: View {
                 .foregroundColor(.red)
             
             TabView(selection: $selectedTab) {
-                TapGestureView()
+                TapGestureExample()
                     .tabItem {
                         Label("Tap", systemImage: "heart")
                     }
-                    .tag(Tabs.TapGestureView)
+                    .tag(Tabs.TapGestureExample)
                 
-                LongPressGestureView()
+                LongPressGestureExample()
                     .tabItem {
                         Label("Long Press", systemImage: "star")
                     }
-                    .tag(Tabs.LongPressGestureView)
+                    .tag(Tabs.LongPressGestureExample)
                 
-                DragGestureView()
+                DragGestureExample()
                     .tabItem {
                         Label("Drag", systemImage: "flag")
                     }
-                    .tag(Tabs.DragGestureView)
+                    .tag(Tabs.DragGestureExample)
             }
         }
     }
 }
 
-struct TabViewView_Previews: PreviewProvider {
+struct TabViewExample_Previews: PreviewProvider {
     static var previews: some View {
-        TabViewView()
+        TabViewExample()
     }
 }

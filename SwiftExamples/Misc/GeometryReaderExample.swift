@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct GeometryReaderView: View {
+struct GeometryReaderExample: View {
     
     var body: some View {
         
@@ -51,8 +51,8 @@ struct GeometryReaderView: View {
     }
 }
 
-struct GeometryReaderView_Previews: PreviewProvider {
+struct GeometryReaderExample_Previews: PreviewProvider {
     static var previews: some View {
-        GeometryReaderView()
+        GeometryReaderExample()
     }
 }

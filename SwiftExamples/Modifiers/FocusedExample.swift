@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FocusView: View {
+struct FocusedExample: View {
     
     enum Field: Hashable {
         case username
@@ -46,8 +46,8 @@ struct FocusView: View {
     }
 }
 
-struct FocusView_Previews: PreviewProvider {
+struct FocusedExample_Previews: PreviewProvider {
     static var previews: some View {
-        FocusView()
+        FocusedExample()
     }
 }

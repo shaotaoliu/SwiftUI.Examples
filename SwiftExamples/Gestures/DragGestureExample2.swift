@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct DragGestureView2: View {
+struct DragGestureExample2: View {
     
-    let topOffset: CGFloat = 50
+    let topOffset: CGFloat = 100
     let bottomOffset: CGFloat = 100
     
     @State private var dragOffset: CGSize = .zero
@@ -18,7 +18,7 @@ struct DragGestureView2: View {
                 .clipped()
             
             Rectangle()
-                .fill(.blue)
+                .fill(.gray)
                 .cornerRadius(20)
                 .offset(y: topOffset + dragOffset.height + position.height)
                 .gesture(dragGesture)
@@ -32,7 +32,7 @@ struct DragGestureView2: View {
                 dragOffset = $0.translation
             }
             .onEnded { value in
-                withAnimation(.spring()) {
+                withAnimation {
                     // if at the top:
                     if position == .zero {
                         if value.translation.height < UIScreen.main.bounds.height / 2 {
@@ -58,8 +58,8 @@ struct DragGestureView2: View {
     }
 }
 
-struct DragGestureView2_Previews: PreviewProvider {
+struct DragGestureExample2_Previews: PreviewProvider {
     static var previews: some View {
-        DragGestureView2()
+        DragGestureExample2()
     }
 }

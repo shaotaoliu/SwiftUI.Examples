@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct OnDeleteView: View {
+struct OnDeleteExample: View {
     
     @State private var countries = [
         "Argentina",
@@ -31,8 +31,8 @@ struct OnDeleteView: View {
     }
 }
 
-struct onDeleteView_Previews: PreviewProvider {
+struct OnDeleteExample_Previews: PreviewProvider {
     static var previews: some View {
-        OnDeleteView()
+        OnDeleteExample()
     }
 }

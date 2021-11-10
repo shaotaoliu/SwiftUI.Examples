@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct LongPressGestureView: View {
+struct LongPressGestureExample: View {
     
     @State private var pressed = false
     @State private var pressing = false
@@ -12,20 +12,21 @@ struct LongPressGestureView: View {
             .shadow(radius: 20)
             .frame(width: 200)
             .scaleEffect(pressed ? 0.5 : 1.0)
-            .animation(.easeIn(duration: 0.5))
-            .onLongPressGesture(minimumDuration: 1, maximumDistance: 400,
-                perform: {
+            .onLongPressGesture(minimumDuration: 1, maximumDistance: 400, perform: {
+                withAnimation {
                     pressed.toggle()
-                },
-                onPressingChanged: { state in
+                }
+            }, onPressingChanged: { state in
+                withAnimation {
                     pressing = state
-                })
-
+                }
+            })
+        
     }
 }
 
-struct LongPressGesture_Previews: PreviewProvider {
+struct LongPressGestureExample_Previews: PreviewProvider {
     static var previews: some View {
-        LongPressGestureView()
+        LongPressGestureExample()
     }
 }

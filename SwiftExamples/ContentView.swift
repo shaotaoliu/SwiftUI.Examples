@@ -10,36 +10,58 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
-                    Section(header: Text("Gestures").bold().font(.title2)) {
-                        ExampleLink(destination: TapGestureView())
-                        ExampleLink(destination: LongPressGestureView())
-                        ExampleLink(destination: DragGestureView())
-                        ExampleLink(destination: DragGestureView2())
-                        ExampleLink(destination: RotationGestureView())
-                        ExampleLink(destination: MagnificationGestureView())
-                    }
-                    
-                    Section(header: Text("Controls").bold().font(.title2)) {
-                        ExampleLink(destination: TabViewView())
-                        ExampleLink(destination: ButtonView())
+                    ExampleSection(headerText: "Views") {
+                        ExampleLink(destination: TabViewExample())
+                        ExampleLink(destination: TextFieldExample())
+                        ExampleLink(destination: ButtonSimpleExample())
+                        ExampleLink(destination: PickerExample())
                         ExampleLink(destination: ScrollViewExample())
+                        ExampleLink(destination: LazyGridExample())
+                        ExampleLink(destination: MenuExample())
+                        ExampleLink(destination: ScrollViewReaderExample())
                     }
                     
-                    Section(header: Text("Styles").bold().font(.title2)) {
+                    ExampleSection(headerText: "Styles") {
                         ExampleLink(destination: PaddingExample())
                         ExampleLink(destination: ColorExample())
                         ExampleLink(destination: FrameExample())
                         ExampleLink(destination: FontExample())
                     }
                     
-                    Section(header: Text("Modidfiers").bold().font(.title2)) {
-                        ExampleLink(destination: OnDeleteView())
-                        ExampleLink(destination: FocusView())
+                    ExampleSection(headerText: "Modidfiers") {
+                        ExampleLink(destination: OnDeleteExample())
+                        ExampleLink(destination: FocusedExample())
+                        ExampleLink(destination: OnChangeExample())
+                        ExampleLink(destination: ConfirmationExample())
                     }
                     
-                    Section(header: Text("Misc").bold().font(.title2)) {
-                        ExampleLink(destination: GeometryReaderView())
-                        ExampleLink(destination: TimerView())
+                    ExampleSection(headerText: "States") {
+                        ExampleLink(destination: StateObjectExample())
+                        ExampleLink(destination: EnvironmentObjectExample())
+                        ExampleLink(destination: EnvironmentExample())
+                        ExampleLink(destination: StateExample())
+                        ExampleLink(destination: ViewBuilderExample())
+                    }
+                    
+                    ExampleSection(headerText: "Animation") {
+                        ExampleLink(destination: AnimationExample1())
+                        ExampleLink(destination: AnimationExample2())
+                        ExampleLink(destination: AnimationExample3())
+                        ExampleLink(destination: AnimationExample4())
+                    }
+                    
+                    ExampleSection(headerText: "Gestures") {
+                        ExampleLink(destination: TapGestureExample())
+                        ExampleLink(destination: LongPressGestureExample())
+                        ExampleLink(destination: DragGestureExample())
+                        ExampleLink(destination: RotationGestureExample())
+                        ExampleLink(destination: MagnificationGestureExample())
+                    }
+                    
+                    ExampleSection(headerText: "Misc") {
+                        ExampleLink(destination: GeometryReaderExample())
+                        ExampleLink(destination: TimerExample())
+                        ExampleLink(destination: MusicPlayerExample())
                     }
                 }
                 .navigationTitle("SwiftUI Examples")
@@ -54,9 +76,19 @@ struct ContentView: View {
         let destination: Destination
         var body: some View {
             NavigationLink(destination: destination) {
-                let name: String = "\(Destination.self)"
-                Text(name)
+                Text(String("\(Destination.self)"))
             }
+        }
+    }
+    
+    struct ExampleSection<Content: View>: View {
+        let headerText: String
+        @ViewBuilder let content: () -> Content
+        
+        var body: some View {
+            Section(header: Text(headerText).bold().font(.title2), content: {
+                content()
+            })
         }
     }
 }

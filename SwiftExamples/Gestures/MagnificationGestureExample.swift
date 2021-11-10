@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MagnificationGestureView: View {
+struct MagnificationGestureExample: View {
     
     // press "option" to test
     @State private var currentMagnification: CGFloat = 1
@@ -25,8 +25,8 @@ struct MagnificationGestureView: View {
     }
 }
 
-struct MagnificationGestureView_Previews: PreviewProvider {
+struct MagnificationGestureExample_Previews: PreviewProvider {
     static var previews: some View {
-        MagnificationGestureView()
+        MagnificationGestureExample()
     }
 }

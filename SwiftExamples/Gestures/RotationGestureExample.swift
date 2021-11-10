@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RotationGestureView: View {
+struct RotationGestureExample: View {
     
     @State private var currentRotation = Angle.zero
     @GestureState private var twistAngle = Angle.zero
@@ -40,8 +40,8 @@ struct RotationGestureView: View {
     }
 }
 
-struct RotationGestureView_Previews: PreviewProvider {
+struct RotationGestureExample_Previews: PreviewProvider {
     static var previews: some View {
-        RotationGestureView()
+        RotationGestureExample()
     }
 }
