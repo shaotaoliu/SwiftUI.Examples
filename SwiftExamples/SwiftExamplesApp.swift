@@ -6,6 +6,9 @@ struct SwiftExamplesApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(Store())
+                .onAppear {
+                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+                }
         }
     }
 }

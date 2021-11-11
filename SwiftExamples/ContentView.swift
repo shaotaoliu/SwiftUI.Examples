@@ -7,8 +7,22 @@ struct ContentView: View {
     }
 
     var body: some View {
-        NavigationView {
-            VStack {
+        TabView {
+            ExampleViews1()
+                .tabItem {
+                    Label("Part I", systemImage: "1.circle")
+                }
+            
+            ExampleViews2()
+                .tabItem {
+                    Label("Part II", systemImage: "2.circle")
+                }
+        }
+    }
+    
+    struct ExampleViews1: View {
+        var body: some View {
+            NavigationView {
                 List {
                     ExampleSection(headerText: "Views") {
                         ExampleLink(destination: TabViewExample())
@@ -42,7 +56,16 @@ struct ContentView: View {
                         ExampleLink(destination: StateExample())
                         ExampleLink(destination: ViewBuilderExample())
                     }
-                    
+                }
+                .navigationTitle("SwiftUI Examples")
+            }
+        }
+    }
+    
+    struct ExampleViews2: View {
+        var body: some View {
+            NavigationView {
+                List {
                     ExampleSection(headerText: "Animation") {
                         ExampleLink(destination: AnimationExample1())
                         ExampleLink(destination: AnimationExample2())
@@ -62,14 +85,13 @@ struct ContentView: View {
                         ExampleLink(destination: GeometryReaderExample())
                         ExampleLink(destination: TimerExample())
                         ExampleLink(destination: MusicPlayerExample())
+                        ExampleLink(destination: UserDefaultsExample())
                     }
                 }
-                .navigationTitle("SwiftUI Examples")
+                .navigationBarHidden(true)
             }
             
-            Spacer()
         }
-        
     }
     
     struct ExampleLink<Destination: View>: View {
