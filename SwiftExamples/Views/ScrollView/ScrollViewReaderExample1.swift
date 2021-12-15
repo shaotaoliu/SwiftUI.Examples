@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ScrollViewReaderExample: View {
+struct ScrollViewReaderExample1: View {
     private var count = 100
     
     var body: some View {
@@ -42,8 +42,8 @@ struct ScrollViewReaderExample: View {
     }
 }
 
-struct ScrollViewReaderExample_Previews: PreviewProvider {
+struct ScrollViewReaderExample1_Previews: PreviewProvider {
     static var previews: some View {
-        ScrollViewReaderExample()
+        ScrollViewReaderExample1()
     }
 }

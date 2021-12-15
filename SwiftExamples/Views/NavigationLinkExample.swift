@@ -6,15 +6,15 @@ struct NavigationLinkExample: View {
     
     var body: some View {
         NavigationView {
-            VStack(spacing: 20) {
+            VStack(spacing: 30) {
                 NavigationLink("", destination: GeometryReaderExample(), isActive: $gotoGeometryReaderExample)
                 
                 NavigationLink(destination: TimerExample(), tag: "TimerExample", selection: $viewName) {
-                    Text("")
+                    EmptyView()
                 }
                 
                 NavigationLink(destination: MusicPlayerExample(), tag: "MusicPlayerExample", selection: $viewName) {
-                    Text("")
+                    EmptyView()
                 }
                 
                 Button("GeometryReaderExample") {
@@ -28,6 +28,8 @@ struct NavigationLinkExample: View {
                 Button("MusicPlayerExample") {
                     viewName = "MusicPlayerExample"
                 }
+                
+                Spacer()
             }
         }
     }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4A021BFC2737846100481DBC /* LazyGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A021BFB2737846100481DBC /* LazyGridExample.swift */; };
 		4A021BFF27378DE700481DBC /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A021BFE27378DE700481DBC /* Orientation.swift */; };
+		4A17E19D273CE06100B638F9 /* GroupAnyViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A17E19C273CE06100B638F9 /* GroupAnyViewExample.swift */; };
+		4A1BAB37275730BE00F4DA58 /* CurveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BAB36275730BE00F4DA58 /* CurveExample.swift */; };
+		4A1D93702740F89E0017DAC2 /* AlertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D936F2740F89E0017DAC2 /* AlertExample.swift */; };
 		4A347CF9273A5D00000A31C5 /* AnimationExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A347CF8273A5D00000A31C5 /* AnimationExample1.swift */; };
 		4A347CFB273A5D34000A31C5 /* AnimationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A347CFA273A5D34000A31C5 /* AnimationExample2.swift */; };
 		4A347CFD273A5DD4000A31C5 /* AnimationExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A347CFC273A5DD4000A31C5 /* AnimationExample3.swift */; };
@@ -26,13 +29,19 @@
 		4A3E3904273856A400927C2D /* ButtonViewBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E3903273856A400927C2D /* ButtonViewBuilderExample.swift */; };
 		4A3E390627385C7C00927C2D /* EnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390527385C7C00927C2D /* EnvironmentExample.swift */; };
 		4A3E39092738617700927C2D /* MenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E39082738617700927C2D /* MenuExample.swift */; };
-		4A3E390B2738716B00927C2D /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390A2738716B00927C2D /* ScrollViewReaderExample.swift */; };
+		4A3E390B2738716B00927C2D /* ScrollViewReaderExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390A2738716B00927C2D /* ScrollViewReaderExample1.swift */; };
 		4A3E390D27387CC400927C2D /* ScrollViewReaderExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */; };
 		4A49EB11273C38E400C29193 /* UserDefaultsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */; };
 		4A49EB13273C392100C29193 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49EB12273C392100C29193 /* UserDefaultsService.swift */; };
+		4A5980DD275340C000E95548 /* OnReceiveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5980DC275340C000E95548 /* OnReceiveExample.swift */; };
+		4A5C8911275464E2005C67D2 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8910275464E2005C67D2 /* ListExample.swift */; };
+		4A5C89132754B8C9005C67D2 /* BarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C89122754B8C9005C67D2 /* BarExample.swift */; };
+		4A65DA5F2760096A0054C92D /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A65DA5E2760096A0054C92D /* weather.json */; };
+		4A65DA612760098A0054C92D /* DecoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65DA602760098A0054C92D /* DecoderExample.swift */; };
 		4A6824C9272CBCAA004A7879 /* MusicPlayerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */; };
 		4A6824CB272CC218004A7879 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6824CA272CC217004A7879 /* music.mp3 */; };
 		4A6824CD272D2ABB004A7879 /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6824CC272D2ABB004A7879 /* StateObjectExample.swift */; };
+		4A856BA72758B24A0062FC9F /* LineGraphExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A856BA62758B24A0062FC9F /* LineGraphExample.swift */; };
 		4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */; };
 		4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E139272113B700E66E2E /* JSONEncoderExample.swift */; };
 		4A96E13C272113C800E66E2E /* JSONSerializationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */; };
@@ -62,15 +71,23 @@
 		4AC6A48D270850ED009067C3 /* RotationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A48C270850ED009067C3 /* RotationGestureExample.swift */; };
 		4AC6A4912708B320009067C3 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A4902708B320009067C3 /* TabViewExample.swift */; };
 		4AC6A4932708C7CC009067C3 /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A4922708C7CC009067C3 /* PaddingExample.swift */; };
+		4ACE2BAF274B597F008DF217 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE2BAE274B597F008DF217 /* TransitionExample.swift */; };
 		4ACF67D927360C27003CF94F /* OnChangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF67D827360C27003CF94F /* OnChangeExample.swift */; };
 		4ACF68052736F0FD003CF94F /* ViewBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF68042736F0FD003CF94F /* ViewBuilderExample.swift */; };
 		4ACF680727372A03003CF94F /* ModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF680627372A03003CF94F /* ModifierExample.swift */; };
+		4ADFD2012769A02A00B3565A /* SlidingTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2002769A02A00B3565A /* SlidingTextExample.swift */; };
+		4ADFD2032769A04600B3565A /* ScaleFactorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */; };
+		4ADFD2052769A04F00B3565A /* ScrollViewReaderExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2042769A04F00B3565A /* ScrollViewReaderExample3.swift */; };
+		4ADFD2092769A2CC00B3565A /* ScrollableTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2082769A2CC00B3565A /* ScrollableTextExample.swift */; };
 		4AF0D0062732593200EA2E80 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0D0052732593200EA2E80 /* PickerExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A021BFB2737846100481DBC /* LazyGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridExample.swift; sourceTree = "<group>"; };
 		4A021BFE27378DE700481DBC /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		4A17E19C273CE06100B638F9 /* GroupAnyViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnyViewExample.swift; sourceTree = "<group>"; };
+		4A1BAB36275730BE00F4DA58 /* CurveExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveExample.swift; sourceTree = "<group>"; };
+		4A1D936F2740F89E0017DAC2 /* AlertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExample.swift; sourceTree = "<group>"; };
 		4A347CF8273A5D00000A31C5 /* AnimationExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample1.swift; sourceTree = "<group>"; };
 		4A347CFA273A5D34000A31C5 /* AnimationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample2.swift; sourceTree = "<group>"; };
 		4A347CFC273A5DD4000A31C5 /* AnimationExample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample3.swift; sourceTree = "<group>"; };
@@ -88,13 +105,19 @@
 		4A3E3903273856A400927C2D /* ButtonViewBuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewBuilderExample.swift; sourceTree = "<group>"; };
 		4A3E390527385C7C00927C2D /* EnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentExample.swift; sourceTree = "<group>"; };
 		4A3E39082738617700927C2D /* MenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExample.swift; sourceTree = "<group>"; };
-		4A3E390A2738716B00927C2D /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
+		4A3E390A2738716B00927C2D /* ScrollViewReaderExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample1.swift; sourceTree = "<group>"; };
 		4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample2.swift; sourceTree = "<group>"; };
 		4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExample.swift; sourceTree = "<group>"; };
 		4A49EB12273C392100C29193 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		4A5980DC275340C000E95548 /* OnReceiveExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceiveExample.swift; sourceTree = "<group>"; };
+		4A5C8910275464E2005C67D2 /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		4A5C89122754B8C9005C67D2 /* BarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarExample.swift; sourceTree = "<group>"; };
+		4A65DA5E2760096A0054C92D /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
+		4A65DA602760098A0054C92D /* DecoderExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoderExample.swift; sourceTree = "<group>"; };
 		4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerExample.swift; sourceTree = "<group>"; };
 		4A6824CA272CC217004A7879 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		4A6824CC272D2ABB004A7879 /* StateObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
+		4A856BA62758B24A0062FC9F /* LineGraphExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphExample.swift; sourceTree = "<group>"; };
 		4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderExample.swift; sourceTree = "<group>"; };
 		4A96E139272113B700E66E2E /* JSONEncoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoderExample.swift; sourceTree = "<group>"; };
 		4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializationExample.swift; sourceTree = "<group>"; };
@@ -125,9 +148,14 @@
 		4AC6A48C270850ED009067C3 /* RotationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExample.swift; sourceTree = "<group>"; };
 		4AC6A4902708B320009067C3 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		4AC6A4922708C7CC009067C3 /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
+		4ACE2BAE274B597F008DF217 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 		4ACF67D827360C27003CF94F /* OnChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeExample.swift; sourceTree = "<group>"; };
 		4ACF68042736F0FD003CF94F /* ViewBuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderExample.swift; sourceTree = "<group>"; };
 		4ACF680627372A03003CF94F /* ModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierExample.swift; sourceTree = "<group>"; };
+		4ADFD2002769A02A00B3565A /* SlidingTextExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingTextExample.swift; sourceTree = "<group>"; };
+		4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleFactorExample.swift; sourceTree = "<group>"; };
+		4ADFD2042769A04F00B3565A /* ScrollViewReaderExample3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample3.swift; sourceTree = "<group>"; };
+		4ADFD2082769A2CC00B3565A /* ScrollableTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTextExample.swift; sourceTree = "<group>"; };
 		4AF0D0052732593200EA2E80 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +187,8 @@
 				4A347CFA273A5D34000A31C5 /* AnimationExample2.swift */,
 				4A347CFC273A5DD4000A31C5 /* AnimationExample3.swift */,
 				4A347CFE273A6E94000A31C5 /* AnimationExample4.swift */,
+				4ACE2BAE274B597F008DF217 /* TransitionExample.swift */,
+				4ADFD2002769A02A00B3565A /* SlidingTextExample.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -205,6 +235,8 @@
 				4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */,
 				4A96E139272113B700E66E2E /* JSONEncoderExample.swift */,
 				4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */,
+				4A65DA602760098A0054C92D /* DecoderExample.swift */,
+				4A65DA5E2760096A0054C92D /* weather.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -213,14 +245,16 @@
 			isa = PBXGroup;
 			children = (
 				4A3E38F82737C82200927C2D /* Button */,
+				4ADFD2062769A07B00B3565A /* ScrollView */,
 				4AC6A4902708B320009067C3 /* TabViewExample.swift */,
 				4AF0D0052732593200EA2E80 /* PickerExample.swift */,
 				4A3E38F62737A5E200927C2D /* TextFieldExample.swift */,
-				4A96E1BB2724E35900E66E2E /* ScrollViewExample.swift */,
 				4A021BFB2737846100481DBC /* LazyGridExample.swift */,
 				4A3E39082738617700927C2D /* MenuExample.swift */,
-				4A3E390A2738716B00927C2D /* ScrollViewReaderExample.swift */,
-				4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */,
+				4A5C8910275464E2005C67D2 /* ListExample.swift */,
+				4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */,
+				4A17E19C273CE06100B638F9 /* GroupAnyViewExample.swift */,
+				4A347D00273BB5A1000A31C5 /* NavigationLinkExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,10 +276,12 @@
 			isa = PBXGroup;
 			children = (
 				4AC6A4822707F446009067C3 /* OnDeleteExample.swift */,
+				4A5980DC275340C000E95548 /* OnReceiveExample.swift */,
 				4ACF680627372A03003CF94F /* ModifierExample.swift */,
 				4AC0447B2717A3960060FB8D /* FocusedExample.swift */,
 				4ACF67D827360C27003CF94F /* OnChangeExample.swift */,
 				4A3BA406272F537D00D5D52C /* ConfirmationExample.swift */,
+				4A1D936F2740F89E0017DAC2 /* AlertExample.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -319,13 +355,35 @@
 		4AC6A47D2707E674009067C3 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				4ADFD2072769A0E200B3565A /* Samples */,
 				4AC6A47E2707E699009067C3 /* GeometryReaderExample.swift */,
 				4AC6A4802707E974009067C3 /* TimerExample.swift */,
 				4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */,
-				4A347D00273BB5A1000A31C5 /* NavigationLinkExample.swift */,
 				4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		4ADFD2062769A07B00B3565A /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4A96E1BB2724E35900E66E2E /* ScrollViewExample.swift */,
+				4A3E390A2738716B00927C2D /* ScrollViewReaderExample1.swift */,
+				4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */,
+				4ADFD2042769A04F00B3565A /* ScrollViewReaderExample3.swift */,
+				4ADFD2082769A2CC00B3565A /* ScrollableTextExample.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		4ADFD2072769A0E200B3565A /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C89122754B8C9005C67D2 /* BarExample.swift */,
+				4A1BAB36275730BE00F4DA58 /* CurveExample.swift */,
+				4A856BA62758B24A0062FC9F /* LineGraphExample.swift */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A65DA5F2760096A0054C92D /* weather.json in Resources */,
 				4AC6A4742707E298009067C3 /* Preview Assets.xcassets in Resources */,
 				4AC6A4712707E298009067C3 /* Assets.xcassets in Resources */,
 				4A6824CB272CC218004A7879 /* music.mp3 in Resources */,
@@ -408,12 +467,14 @@
 				4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */,
 				4A3E3904273856A400927C2D /* ButtonViewBuilderExample.swift in Sources */,
 				4A347D03273BBC81000A31C5 /* RotationEffectExample.swift in Sources */,
+				4ADFD2052769A04F00B3565A /* ScrollViewReaderExample3.swift in Sources */,
 				4A96E14F27221EFB00E66E2E /* ButtonSimpleExample.swift in Sources */,
 				4A9BB0F92735C500007E3853 /* StateExample.swift in Sources */,
 				4A347D05273BBD8B000A31C5 /* UIScreenExample.swift in Sources */,
 				4A96E1BF27253D4F00E66E2E /* FontExample.swift in Sources */,
 				4A3E390D27387CC400927C2D /* ScrollViewReaderExample2.swift in Sources */,
 				4A96E14C2721F14800E66E2E /* LocalizedErrorExample.swift in Sources */,
+				4A5C8911275464E2005C67D2 /* ListExample.swift in Sources */,
 				4AC6A4872707FBF6009067C3 /* DragGestureExample.swift in Sources */,
 				4A347CFF273A6E94000A31C5 /* AnimationExample4.swift in Sources */,
 				4A3E39092738617700927C2D /* MenuExample.swift in Sources */,
@@ -433,27 +494,38 @@
 				4A3E38FA2737C86D00927C2D /* ButtonModifierExample.swift in Sources */,
 				4AC6A48D270850ED009067C3 /* RotationGestureExample.swift in Sources */,
 				4A347CFD273A5DD4000A31C5 /* AnimationExample3.swift in Sources */,
+				4ADFD2092769A2CC00B3565A /* ScrollableTextExample.swift in Sources */,
 				4AC6A47F2707E699009067C3 /* GeometryReaderExample.swift in Sources */,
 				4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */,
 				4A347CFB273A5D34000A31C5 /* AnimationExample2.swift in Sources */,
 				4A49EB11273C38E400C29193 /* UserDefaultsExample.swift in Sources */,
+				4ADFD2032769A04600B3565A /* ScaleFactorExample.swift in Sources */,
 				4A347CF9273A5D00000A31C5 /* AnimationExample1.swift in Sources */,
 				4AC6A47C2707E2D5009067C3 /* TapGestureExample.swift in Sources */,
 				4A347D01273BB5A1000A31C5 /* NavigationLinkExample.swift in Sources */,
+				4A1D93702740F89E0017DAC2 /* AlertExample.swift in Sources */,
 				4ACF68052736F0FD003CF94F /* ViewBuilderExample.swift in Sources */,
 				4A6824CD272D2ABB004A7879 /* StateObjectExample.swift in Sources */,
+				4A65DA612760098A0054C92D /* DecoderExample.swift in Sources */,
+				4A1BAB37275730BE00F4DA58 /* CurveExample.swift in Sources */,
 				4A3BA407272F537D00D5D52C /* ConfirmationExample.swift in Sources */,
+				4ADFD2012769A02A00B3565A /* SlidingTextExample.swift in Sources */,
 				4AC6A489270840A0009067C3 /* DragGestureExample2.swift in Sources */,
 				4A3E39022737CBF500927C2D /* ButtonStyleExample.swift in Sources */,
 				4A3E38FC2737C88300927C2D /* ButtonStructExample.swift in Sources */,
-				4A3E390B2738716B00927C2D /* ScrollViewReaderExample.swift in Sources */,
+				4ACE2BAF274B597F008DF217 /* TransitionExample.swift in Sources */,
+				4A3E390B2738716B00927C2D /* ScrollViewReaderExample1.swift in Sources */,
 				4A96E1BC2724E35900E66E2E /* ScrollViewExample.swift in Sources */,
+				4A17E19D273CE06100B638F9 /* GroupAnyViewExample.swift in Sources */,
 				4AC6A4832707F446009067C3 /* OnDeleteExample.swift in Sources */,
+				4A856BA72758B24A0062FC9F /* LineGraphExample.swift in Sources */,
 				4A9BB0F72735BD09007E3853 /* EnvironmentObjectExample.swift in Sources */,
 				4AF0D0062732593200EA2E80 /* PickerExample.swift in Sources */,
 				4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */,
 				4A9BB0F32735A925007E3853 /* Store.swift in Sources */,
+				4A5980DD275340C000E95548 /* OnReceiveExample.swift in Sources */,
 				4A3E38F72737A5E200927C2D /* TextFieldExample.swift in Sources */,
+				4A5C89132754B8C9005C67D2 /* BarExample.swift in Sources */,
 				4AC0447C2717A3960060FB8D /* FocusedExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

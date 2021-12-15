@@ -7,6 +7,7 @@ struct MenuExample: View {
     
     var body: some View {
         VStack(spacing: 30) {
+            // press Control and tap:
             Text("ContentMenu: \(name)")
                 .contextMenu {
                     Button("Jason", action: { name = "Jason" })

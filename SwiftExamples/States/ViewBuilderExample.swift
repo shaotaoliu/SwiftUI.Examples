@@ -31,7 +31,6 @@ struct ViewBuilderExample_Previews: PreviewProvider {
     }
 }
 
-
 struct Container1<Content: View>: View {
     var content : Content
     

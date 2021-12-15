@@ -32,7 +32,7 @@ struct ContentView: View {
                         ExampleLink(destination: ScrollViewExample())
                         ExampleLink(destination: LazyGridExample())
                         ExampleLink(destination: MenuExample())
-                        ExampleLink(destination: ScrollViewReaderExample())
+                        ExampleLink(destination: ScrollViewReaderExample1())
                     }
                     
                     ExampleSection(headerText: "Styles") {
@@ -46,7 +46,9 @@ struct ContentView: View {
                         ExampleLink(destination: OnDeleteExample())
                         ExampleLink(destination: FocusedExample())
                         ExampleLink(destination: OnChangeExample())
+                        ExampleLink(destination: OnReceiveExample())
                         ExampleLink(destination: ConfirmationExample())
+                        ExampleLink(destination: AlertExample())
                     }
                     
                     ExampleSection(headerText: "States") {

@@ -1,0 +1,22 @@
+{
+    "lat": 36.1667,
+    "lon": -115.1487,
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "sunny",
+            "icon": "01d"
+        }
+    ],
+    "main": {
+        "temp": 295.03,
+        "feels_like": 293.77,
+        "humidity": 19,
+        "wind_speed": 9.77
+    },
+    "sys": {
+        "sunrise": 1633959848,
+        "sunset": 1634000999
+    }
+}
