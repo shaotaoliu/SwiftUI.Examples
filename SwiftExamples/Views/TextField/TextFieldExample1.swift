@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TextFieldExample: View {
+struct TextFieldExample1: View {
     var body: some View {
         TabView {
             TextFieldSimpleExample()
@@ -109,8 +109,8 @@ extension View {
     }
 }
 
-struct TextFieldExample_Previews: PreviewProvider {
+struct TextFieldExample1_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldExample()
+        TextFieldExample1()
     }
 }

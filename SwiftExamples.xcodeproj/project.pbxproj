@@ -20,7 +20,7 @@
 		4A347D03273BBC81000A31C5 /* RotationEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A347D02273BBC81000A31C5 /* RotationEffectExample.swift */; };
 		4A347D05273BBD8B000A31C5 /* UIScreenExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A347D04273BBD8B000A31C5 /* UIScreenExample.swift */; };
 		4A3BA407272F537D00D5D52C /* ConfirmationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BA406272F537D00D5D52C /* ConfirmationExample.swift */; };
-		4A3E38F72737A5E200927C2D /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E38F62737A5E200927C2D /* TextFieldExample.swift */; };
+		4A3E38F72737A5E200927C2D /* TextFieldExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E38F62737A5E200927C2D /* TextFieldExample1.swift */; };
 		4A3E38FA2737C86D00927C2D /* ButtonModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E38F92737C86D00927C2D /* ButtonModifierExample.swift */; };
 		4A3E38FC2737C88300927C2D /* ButtonStructExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E38FB2737C88300927C2D /* ButtonStructExample.swift */; };
 		4A3E38FE2737CBDC00927C2D /* ButtonPropertyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E38FD2737CBDC00927C2D /* ButtonPropertyExample.swift */; };
@@ -55,6 +55,8 @@
 		4A9BB0F32735A925007E3853 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BB0F22735A925007E3853 /* Store.swift */; };
 		4A9BB0F72735BD09007E3853 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BB0F62735BD09007E3853 /* EnvironmentObjectExample.swift */; };
 		4A9BB0F92735C500007E3853 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BB0F82735C500007E3853 /* StateExample.swift */; };
+		4AB26C73277458E500D73A97 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB26C72277458E500D73A97 /* SDWebImageSwiftUI */; };
+		4AB26C75277458FE00D73A97 /* WebImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB26C74277458FE00D73A97 /* WebImageExample.swift */; };
 		4AC0447C2717A3960060FB8D /* FocusedExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0447B2717A3960060FB8D /* FocusedExample.swift */; };
 		4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */; };
 		4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6A46E2707E294009067C3 /* ContentView.swift */; };
@@ -75,10 +77,18 @@
 		4ACF67D927360C27003CF94F /* OnChangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF67D827360C27003CF94F /* OnChangeExample.swift */; };
 		4ACF68052736F0FD003CF94F /* ViewBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF68042736F0FD003CF94F /* ViewBuilderExample.swift */; };
 		4ACF680727372A03003CF94F /* ModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF680627372A03003CF94F /* ModifierExample.swift */; };
+		4ACFDC6E276FD1720039769F /* UIBezierPathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFDC6D276FD1720039769F /* UIBezierPathExample.swift */; };
+		4ACFDC72276FE1B80039769F /* PathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFDC71276FE1B80039769F /* PathExample.swift */; };
+		4ACFDC7A27711E7C0039769F /* AttributedStringExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFDC7927711E7C0039769F /* AttributedStringExample.swift */; };
 		4ADFD2012769A02A00B3565A /* SlidingTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2002769A02A00B3565A /* SlidingTextExample.swift */; };
 		4ADFD2032769A04600B3565A /* ScaleFactorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */; };
 		4ADFD2052769A04F00B3565A /* ScrollViewReaderExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2042769A04F00B3565A /* ScrollViewReaderExample3.swift */; };
 		4ADFD2092769A2CC00B3565A /* ScrollableTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD2082769A2CC00B3565A /* ScrollableTextExample.swift */; };
+		4ADFD20B2769D12700B3565A /* TapStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD20A2769D12700B3565A /* TapStackExample.swift */; };
+		4ADFD20D2769E79000B3565A /* OrientationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD20C2769E79000B3565A /* OrientationExample.swift */; };
+		4ADFD20F2769ED8F00B3565A /* ToolbarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFD20E2769ED8F00B3565A /* ToolbarExample.swift */; };
+		4AEB8BA72772D5BB0007599F /* TextFieldExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB8BA62772D5BB0007599F /* TextFieldExample2.swift */; };
+		4AEB8BA92772DDDB0007599F /* TextFieldExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB8BA82772DDDB0007599F /* TextFieldExample3.swift */; };
 		4AF0D0062732593200EA2E80 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0D0052732593200EA2E80 /* PickerExample.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,7 +106,7 @@
 		4A347D02273BBC81000A31C5 /* RotationEffectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectExample.swift; sourceTree = "<group>"; };
 		4A347D04273BBD8B000A31C5 /* UIScreenExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExample.swift; sourceTree = "<group>"; };
 		4A3BA406272F537D00D5D52C /* ConfirmationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationExample.swift; sourceTree = "<group>"; };
-		4A3E38F62737A5E200927C2D /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		4A3E38F62737A5E200927C2D /* TextFieldExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample1.swift; sourceTree = "<group>"; };
 		4A3E38F92737C86D00927C2D /* ButtonModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifierExample.swift; sourceTree = "<group>"; };
 		4A3E38FB2737C88300927C2D /* ButtonStructExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStructExample.swift; sourceTree = "<group>"; };
 		4A3E38FD2737CBDC00927C2D /* ButtonPropertyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPropertyExample.swift; sourceTree = "<group>"; };
@@ -131,6 +141,7 @@
 		4A9BB0F22735A925007E3853 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		4A9BB0F62735BD09007E3853 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 		4A9BB0F82735C500007E3853 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		4AB26C74277458FE00D73A97 /* WebImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageExample.swift; sourceTree = "<group>"; };
 		4AC0447B2717A3960060FB8D /* FocusedExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedExample.swift; sourceTree = "<group>"; };
 		4AC6A4692707E294009067C3 /* SwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC6A46C2707E294009067C3 /* SwiftExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExamplesApp.swift; sourceTree = "<group>"; };
@@ -152,10 +163,18 @@
 		4ACF67D827360C27003CF94F /* OnChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeExample.swift; sourceTree = "<group>"; };
 		4ACF68042736F0FD003CF94F /* ViewBuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderExample.swift; sourceTree = "<group>"; };
 		4ACF680627372A03003CF94F /* ModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierExample.swift; sourceTree = "<group>"; };
+		4ACFDC6D276FD1720039769F /* UIBezierPathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExample.swift; sourceTree = "<group>"; };
+		4ACFDC71276FE1B80039769F /* PathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathExample.swift; sourceTree = "<group>"; };
+		4ACFDC7927711E7C0039769F /* AttributedStringExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringExample.swift; sourceTree = "<group>"; };
 		4ADFD2002769A02A00B3565A /* SlidingTextExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingTextExample.swift; sourceTree = "<group>"; };
 		4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleFactorExample.swift; sourceTree = "<group>"; };
 		4ADFD2042769A04F00B3565A /* ScrollViewReaderExample3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample3.swift; sourceTree = "<group>"; };
 		4ADFD2082769A2CC00B3565A /* ScrollableTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTextExample.swift; sourceTree = "<group>"; };
+		4ADFD20A2769D12700B3565A /* TapStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapStackExample.swift; sourceTree = "<group>"; };
+		4ADFD20C2769E79000B3565A /* OrientationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationExample.swift; sourceTree = "<group>"; };
+		4ADFD20E2769ED8F00B3565A /* ToolbarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarExample.swift; sourceTree = "<group>"; };
+		4AEB8BA62772D5BB0007599F /* TextFieldExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample2.swift; sourceTree = "<group>"; };
+		4AEB8BA82772DDDB0007599F /* TextFieldExample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample3.swift; sourceTree = "<group>"; };
 		4AF0D0052732593200EA2E80 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB26C73277458E500D73A97 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,15 +266,16 @@
 			children = (
 				4A3E38F82737C82200927C2D /* Button */,
 				4ADFD2062769A07B00B3565A /* ScrollView */,
+				4AEB8BA52772D59A0007599F /* TextField */,
 				4AC6A4902708B320009067C3 /* TabViewExample.swift */,
 				4AF0D0052732593200EA2E80 /* PickerExample.swift */,
-				4A3E38F62737A5E200927C2D /* TextFieldExample.swift */,
 				4A021BFB2737846100481DBC /* LazyGridExample.swift */,
 				4A3E39082738617700927C2D /* MenuExample.swift */,
 				4A5C8910275464E2005C67D2 /* ListExample.swift */,
 				4ADFD2022769A04600B3565A /* ScaleFactorExample.swift */,
 				4A17E19C273CE06100B638F9 /* GroupAnyViewExample.swift */,
 				4A347D00273BB5A1000A31C5 /* NavigationLinkExample.swift */,
+				4ADFD20E2769ED8F00B3565A /* ToolbarExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,6 +369,7 @@
 				4AC6A4862707FBF6009067C3 /* DragGestureExample.swift */,
 				4AC6A488270840A0009067C3 /* DragGestureExample2.swift */,
 				4AC6A4842707FB68009067C3 /* LongPressGestureExample.swift */,
+				4ADFD20A2769D12700B3565A /* TapStackExample.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -360,6 +382,11 @@
 				4AC6A4802707E974009067C3 /* TimerExample.swift */,
 				4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */,
 				4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */,
+				4ADFD20C2769E79000B3565A /* OrientationExample.swift */,
+				4ACFDC7927711E7C0039769F /* AttributedStringExample.swift */,
+				4ACFDC71276FE1B80039769F /* PathExample.swift */,
+				4ACFDC6D276FD1720039769F /* UIBezierPathExample.swift */,
+				4AB26C74277458FE00D73A97 /* WebImageExample.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -386,6 +413,16 @@
 			path = Samples;
 			sourceTree = "<group>";
 		};
+		4AEB8BA52772D59A0007599F /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E38F62737A5E200927C2D /* TextFieldExample1.swift */,
+				4AEB8BA62772D5BB0007599F /* TextFieldExample2.swift */,
+				4AEB8BA82772DDDB0007599F /* TextFieldExample3.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +439,9 @@
 			dependencies = (
 			);
 			name = SwiftExamples;
+			packageProductDependencies = (
+				4AB26C72277458E500D73A97 /* SDWebImageSwiftUI */,
+			);
 			productName = SwiftExamples;
 			productReference = 4AC6A4692707E294009067C3 /* SwiftExamples.app */;
 			productType = "com.apple.product-type.application";
@@ -430,6 +470,9 @@
 				Base,
 			);
 			mainGroup = 4AC6A4602707E294009067C3;
+			packageReferences = (
+				4AB26C71277458E500D73A97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 4AC6A46A2707E294009067C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -459,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6824C9272CBCAA004A7879 /* MusicPlayerExample.swift in Sources */,
+				4AB26C75277458FE00D73A97 /* WebImageExample.swift in Sources */,
 				4A49EB13273C392100C29193 /* UserDefaultsService.swift in Sources */,
 				4A96E1B82724C9F100E66E2E /* ColorExample.swift in Sources */,
 				4AC6A4932708C7CC009067C3 /* PaddingExample.swift in Sources */,
@@ -468,9 +512,12 @@
 				4A3E3904273856A400927C2D /* ButtonViewBuilderExample.swift in Sources */,
 				4A347D03273BBC81000A31C5 /* RotationEffectExample.swift in Sources */,
 				4ADFD2052769A04F00B3565A /* ScrollViewReaderExample3.swift in Sources */,
+				4AEB8BA72772D5BB0007599F /* TextFieldExample2.swift in Sources */,
 				4A96E14F27221EFB00E66E2E /* ButtonSimpleExample.swift in Sources */,
+				4ADFD20B2769D12700B3565A /* TapStackExample.swift in Sources */,
 				4A9BB0F92735C500007E3853 /* StateExample.swift in Sources */,
 				4A347D05273BBD8B000A31C5 /* UIScreenExample.swift in Sources */,
+				4ADFD20F2769ED8F00B3565A /* ToolbarExample.swift in Sources */,
 				4A96E1BF27253D4F00E66E2E /* FontExample.swift in Sources */,
 				4A3E390D27387CC400927C2D /* ScrollViewReaderExample2.swift in Sources */,
 				4A96E14C2721F14800E66E2E /* LocalizedErrorExample.swift in Sources */,
@@ -484,10 +531,13 @@
 				4ACF67D927360C27003CF94F /* OnChangeExample.swift in Sources */,
 				4AC6A48B270848CE009067C3 /* MagnificationGestureExample.swift in Sources */,
 				4A96E1BA2724DCE400E66E2E /* FrameExample.swift in Sources */,
+				4AEB8BA92772DDDB0007599F /* TextFieldExample3.swift in Sources */,
 				4A96E1402721141500E66E2E /* TryExample.swift in Sources */,
+				4ADFD20D2769E79000B3565A /* OrientationExample.swift in Sources */,
 				4A021BFF27378DE700481DBC /* Orientation.swift in Sources */,
 				4A3E39002737CBEA00927C2D /* ButtonExtensionExample.swift in Sources */,
 				4AC6A46F2707E294009067C3 /* ContentView.swift in Sources */,
+				4ACFDC72276FE1B80039769F /* PathExample.swift in Sources */,
 				4AC6A4852707FB68009067C3 /* LongPressGestureExample.swift in Sources */,
 				4ACF680727372A03003CF94F /* ModifierExample.swift in Sources */,
 				4AC6A4912708B320009067C3 /* TabViewExample.swift in Sources */,
@@ -502,6 +552,7 @@
 				4ADFD2032769A04600B3565A /* ScaleFactorExample.swift in Sources */,
 				4A347CF9273A5D00000A31C5 /* AnimationExample1.swift in Sources */,
 				4AC6A47C2707E2D5009067C3 /* TapGestureExample.swift in Sources */,
+				4ACFDC6E276FD1720039769F /* UIBezierPathExample.swift in Sources */,
 				4A347D01273BB5A1000A31C5 /* NavigationLinkExample.swift in Sources */,
 				4A1D93702740F89E0017DAC2 /* AlertExample.swift in Sources */,
 				4ACF68052736F0FD003CF94F /* ViewBuilderExample.swift in Sources */,
@@ -524,9 +575,10 @@
 				4AC6A46D2707E294009067C3 /* SwiftExamplesApp.swift in Sources */,
 				4A9BB0F32735A925007E3853 /* Store.swift in Sources */,
 				4A5980DD275340C000E95548 /* OnReceiveExample.swift in Sources */,
-				4A3E38F72737A5E200927C2D /* TextFieldExample.swift in Sources */,
+				4A3E38F72737A5E200927C2D /* TextFieldExample1.swift in Sources */,
 				4A5C89132754B8C9005C67D2 /* BarExample.swift in Sources */,
 				4AC0447C2717A3960060FB8D /* FocusedExample.swift in Sources */,
+				4ACFDC7A27711E7C0039769F /* AttributedStringExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +781,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AB26C71277458E500D73A97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AB26C72277458E500D73A97 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB26C71277458E500D73A97 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4AC6A4612707E294009067C3 /* Project object */;
 }

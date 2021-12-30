@@ -26,7 +26,7 @@ struct ContentView: View {
                 List {
                     ExampleSection(headerText: "Views") {
                         ExampleLink(destination: TabViewExample())
-                        ExampleLink(destination: TextFieldExample())
+                        ExampleLink(destination: TextFieldExample1())
                         ExampleLink(destination: ButtonSimpleExample())
                         ExampleLink(destination: PickerExample())
                         ExampleLink(destination: ScrollViewExample())
