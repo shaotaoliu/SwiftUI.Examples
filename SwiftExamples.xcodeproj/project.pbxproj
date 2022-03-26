@@ -31,6 +31,8 @@
 		4A3E39092738617700927C2D /* MenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E39082738617700927C2D /* MenuExample.swift */; };
 		4A3E390B2738716B00927C2D /* ScrollViewReaderExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390A2738716B00927C2D /* ScrollViewReaderExample1.swift */; };
 		4A3E390D27387CC400927C2D /* ScrollViewReaderExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */; };
+		4A47584C27EFB5D0004761D0 /* KeyboardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47584B27EFB5D0004761D0 /* KeyboardExample.swift */; };
+		4A47584E27EFBA1D004761D0 /* Focused2Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47584D27EFBA1D004761D0 /* Focused2Example.swift */; };
 		4A49EB11273C38E400C29193 /* UserDefaultsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */; };
 		4A49EB13273C392100C29193 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49EB12273C392100C29193 /* UserDefaultsService.swift */; };
 		4A5980DD275340C000E95548 /* OnReceiveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5980DC275340C000E95548 /* OnReceiveExample.swift */; };
@@ -117,6 +119,8 @@
 		4A3E39082738617700927C2D /* MenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExample.swift; sourceTree = "<group>"; };
 		4A3E390A2738716B00927C2D /* ScrollViewReaderExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample1.swift; sourceTree = "<group>"; };
 		4A3E390C27387CC400927C2D /* ScrollViewReaderExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample2.swift; sourceTree = "<group>"; };
+		4A47584B27EFB5D0004761D0 /* KeyboardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExample.swift; sourceTree = "<group>"; };
+		4A47584D27EFBA1D004761D0 /* Focused2Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focused2Example.swift; sourceTree = "<group>"; };
 		4A49EB10273C38E400C29193 /* UserDefaultsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExample.swift; sourceTree = "<group>"; };
 		4A49EB12273C392100C29193 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		4A5980DC275340C000E95548 /* OnReceiveExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceiveExample.swift; sourceTree = "<group>"; };
@@ -300,6 +304,7 @@
 				4A5980DC275340C000E95548 /* OnReceiveExample.swift */,
 				4ACF680627372A03003CF94F /* ModifierExample.swift */,
 				4AC0447B2717A3960060FB8D /* FocusedExample.swift */,
+				4A47584D27EFBA1D004761D0 /* Focused2Example.swift */,
 				4ACF67D827360C27003CF94F /* OnChangeExample.swift */,
 				4A3BA406272F537D00D5D52C /* ConfirmationExample.swift */,
 				4A1D936F2740F89E0017DAC2 /* AlertExample.swift */,
@@ -387,6 +392,7 @@
 				4ACFDC71276FE1B80039769F /* PathExample.swift */,
 				4ACFDC6D276FD1720039769F /* UIBezierPathExample.swift */,
 				4AB26C74277458FE00D73A97 /* WebImageExample.swift */,
+				4A47584B27EFB5D0004761D0 /* KeyboardExample.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -518,6 +524,7 @@
 				4A9BB0F92735C500007E3853 /* StateExample.swift in Sources */,
 				4A347D05273BBD8B000A31C5 /* UIScreenExample.swift in Sources */,
 				4ADFD20F2769ED8F00B3565A /* ToolbarExample.swift in Sources */,
+				4A47584C27EFB5D0004761D0 /* KeyboardExample.swift in Sources */,
 				4A96E1BF27253D4F00E66E2E /* FontExample.swift in Sources */,
 				4A3E390D27387CC400927C2D /* ScrollViewReaderExample2.swift in Sources */,
 				4A96E14C2721F14800E66E2E /* LocalizedErrorExample.swift in Sources */,
@@ -555,6 +562,7 @@
 				4ACFDC6E276FD1720039769F /* UIBezierPathExample.swift in Sources */,
 				4A347D01273BB5A1000A31C5 /* NavigationLinkExample.swift in Sources */,
 				4A1D93702740F89E0017DAC2 /* AlertExample.swift in Sources */,
+				4A47584E27EFBA1D004761D0 /* Focused2Example.swift in Sources */,
 				4ACF68052736F0FD003CF94F /* ViewBuilderExample.swift in Sources */,
 				4A6824CD272D2ABB004A7879 /* StateObjectExample.swift in Sources */,
 				4A65DA612760098A0054C92D /* DecoderExample.swift in Sources */,

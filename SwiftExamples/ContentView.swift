@@ -88,6 +88,7 @@ struct ContentView: View {
                         ExampleLink(destination: TimerExample())
                         ExampleLink(destination: MusicPlayerExample())
                         ExampleLink(destination: UserDefaultsExample())
+                        ExampleLink(destination: KeyboardExample())
                     }
                 }
                 .navigationBarHidden(true)

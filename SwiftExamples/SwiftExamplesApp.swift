@@ -4,7 +4,7 @@ import SwiftUI
 struct SwiftExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            WebImageExample()
+            ContentView()
                 .environmentObject(Store())
                 .onAppear {
                     UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
