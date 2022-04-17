@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct LazyGridExample: View {
-    let images = ["delicate", "tipsoo", "yellowstone", "rainer", "greatsmoky"]
+    let images = ["image1", "image2", "image3", "image4", "image5"]
     
     var body: some View {
         TabView {

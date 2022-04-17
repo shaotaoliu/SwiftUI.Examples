@@ -11,7 +11,7 @@ struct DragGestureExample2: View {
     var body: some View {
         
         ZStack {
-            Image("monalisa")
+            Image("image1")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 165, height: 250)
