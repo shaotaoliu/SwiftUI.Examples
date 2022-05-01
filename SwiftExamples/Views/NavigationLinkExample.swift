@@ -29,6 +29,17 @@ struct NavigationLinkExample: View {
                     viewName = "MusicPlayerExample"
                 }
                 
+                NavigationLink(destination: {
+                    ListExample()
+                }, label: {
+                    Text("\(Image(systemName: "list.bullet")) ListExample")
+                        .foregroundColor(.white)
+                        .padding(.horizontal)
+                        .padding(.vertical, 8)
+                        .background(.blue)
+                        .cornerRadius(3)
+                })
+                
                 Spacer()
             }
         }

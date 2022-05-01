@@ -43,7 +43,10 @@
 		4A6824C9272CBCAA004A7879 /* MusicPlayerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */; };
 		4A6824CB272CC218004A7879 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6824CA272CC217004A7879 /* music.mp3 */; };
 		4A6824CD272D2ABB004A7879 /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6824CC272D2ABB004A7879 /* StateObjectExample.swift */; };
+		4A77147B281DD65500792BED /* EmojiExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77147A281DD65500792BED /* EmojiExample.swift */; };
 		4A856BA72758B24A0062FC9F /* LineGraphExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A856BA62758B24A0062FC9F /* LineGraphExample.swift */; };
+		4A889E3D281A169C00A4322A /* properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A889E3C281A169C00A4322A /* properties.plist */; };
+		4A889E3F281A173000A4322A /* PropertyListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A889E3E281A173000A4322A /* PropertyListExample.swift */; };
 		4A96E1382720F30300E66E2E /* JSONDecoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */; };
 		4A96E13A272113B700E66E2E /* JSONEncoderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E139272113B700E66E2E /* JSONEncoderExample.swift */; };
 		4A96E13C272113C800E66E2E /* JSONSerializationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */; };
@@ -131,7 +134,10 @@
 		4A6824C8272CBCAA004A7879 /* MusicPlayerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerExample.swift; sourceTree = "<group>"; };
 		4A6824CA272CC217004A7879 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		4A6824CC272D2ABB004A7879 /* StateObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
+		4A77147A281DD65500792BED /* EmojiExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiExample.swift; sourceTree = "<group>"; };
 		4A856BA62758B24A0062FC9F /* LineGraphExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphExample.swift; sourceTree = "<group>"; };
+		4A889E3C281A169C00A4322A /* properties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = properties.plist; sourceTree = "<group>"; };
+		4A889E3E281A173000A4322A /* PropertyListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListExample.swift; sourceTree = "<group>"; };
 		4A96E1372720F30300E66E2E /* JSONDecoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderExample.swift; sourceTree = "<group>"; };
 		4A96E139272113B700E66E2E /* JSONEncoderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoderExample.swift; sourceTree = "<group>"; };
 		4A96E13B272113C800E66E2E /* JSONSerializationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializationExample.swift; sourceTree = "<group>"; };
@@ -280,6 +286,7 @@
 				4A17E19C273CE06100B638F9 /* GroupAnyViewExample.swift */,
 				4A347D00273BB5A1000A31C5 /* NavigationLinkExample.swift */,
 				4ADFD20E2769ED8F00B3565A /* ToolbarExample.swift */,
+				4A77147A281DD65500792BED /* EmojiExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				4A6824CA272CC217004A7879 /* music.mp3 */,
+				4A889E3C281A169C00A4322A /* properties.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -393,6 +401,7 @@
 				4ACFDC6D276FD1720039769F /* UIBezierPathExample.swift */,
 				4AB26C74277458FE00D73A97 /* WebImageExample.swift */,
 				4A47584B27EFB5D0004761D0 /* KeyboardExample.swift */,
+				4A889E3E281A173000A4322A /* PropertyListExample.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -493,6 +502,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A889E3D281A169C00A4322A /* properties.plist in Resources */,
 				4A65DA5F2760096A0054C92D /* weather.json in Resources */,
 				4AC6A4742707E298009067C3 /* Preview Assets.xcassets in Resources */,
 				4AC6A4712707E298009067C3 /* Assets.xcassets in Resources */,
@@ -509,6 +519,7 @@
 			files = (
 				4A6824C9272CBCAA004A7879 /* MusicPlayerExample.swift in Sources */,
 				4AB26C75277458FE00D73A97 /* WebImageExample.swift in Sources */,
+				4A889E3F281A173000A4322A /* PropertyListExample.swift in Sources */,
 				4A49EB13273C392100C29193 /* UserDefaultsService.swift in Sources */,
 				4A96E1B82724C9F100E66E2E /* ColorExample.swift in Sources */,
 				4AC6A4932708C7CC009067C3 /* PaddingExample.swift in Sources */,
@@ -531,6 +542,7 @@
 				4A5C8911275464E2005C67D2 /* ListExample.swift in Sources */,
 				4AC6A4872707FBF6009067C3 /* DragGestureExample.swift in Sources */,
 				4A347CFF273A6E94000A31C5 /* AnimationExample4.swift in Sources */,
+				4A77147B281DD65500792BED /* EmojiExample.swift in Sources */,
 				4A3E39092738617700927C2D /* MenuExample.swift in Sources */,
 				4AC6A4812707E974009067C3 /* TimerExample.swift in Sources */,
 				4A3E38FE2737CBDC00927C2D /* ButtonPropertyExample.swift in Sources */,

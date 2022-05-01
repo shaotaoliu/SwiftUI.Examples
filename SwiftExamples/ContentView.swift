@@ -33,6 +33,7 @@ struct ContentView: View {
                         ExampleLink(destination: LazyGridExample())
                         ExampleLink(destination: MenuExample())
                         ExampleLink(destination: ScrollViewReaderExample1())
+                        ExampleLink(destination: EmojiExample())
                     }
                     
                     ExampleSection(headerText: "Styles") {
@@ -89,6 +90,7 @@ struct ContentView: View {
                         ExampleLink(destination: MusicPlayerExample())
                         ExampleLink(destination: UserDefaultsExample())
                         ExampleLink(destination: KeyboardExample())
+                        ExampleLink(destination: PropertyListExample())
                     }
                 }
                 .navigationBarHidden(true)
