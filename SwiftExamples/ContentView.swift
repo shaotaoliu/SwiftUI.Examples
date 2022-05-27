@@ -18,6 +18,9 @@ struct ContentView: View {
                     Label("Part II", systemImage: "2.circle")
                 }
         }
+        .onAppear() {
+            
+        }
     }
     
     struct ExampleViews1: View {
@@ -31,6 +34,7 @@ struct ContentView: View {
                         ExampleLink(destination: PickerExample())
                         ExampleLink(destination: ScrollViewExample())
                         ExampleLink(destination: LazyGridExample())
+                        ExampleLink(destination: ListExample())
                         ExampleLink(destination: MenuExample())
                         ExampleLink(destination: ScrollViewReaderExample1())
                         ExampleLink(destination: EmojiExample())
@@ -74,6 +78,7 @@ struct ContentView: View {
                         ExampleLink(destination: AnimationExample2())
                         ExampleLink(destination: AnimationExample3())
                         ExampleLink(destination: AnimationExample4())
+                        ExampleLink(destination: RingView())
                     }
                     
                     ExampleSection(headerText: "Gestures") {
@@ -91,11 +96,12 @@ struct ContentView: View {
                         ExampleLink(destination: UserDefaultsExample())
                         ExampleLink(destination: KeyboardExample())
                         ExampleLink(destination: PropertyListExample())
+                        ExampleLink(destination: ImageLoaderExample())
                     }
                 }
-                .navigationBarHidden(true)
+                .navigationTitle("SwiftUI Examples")
+                .navigationBarTitleDisplayMode(.inline)
             }
-            
         }
     }
     
@@ -111,11 +117,29 @@ struct ContentView: View {
     struct ExampleSection<Content: View>: View {
         let headerText: String
         @ViewBuilder let content: () -> Content
+        @State var isOpen = true
         
         var body: some View {
-            Section(header: Text(headerText).bold().font(.title2), content: {
-                content()
+            Section(header: sectionHeader, content: {
+                if isOpen {
+                    content()
+                }
             })
+        }
+        
+        var sectionHeader: some View {
+            HStack {
+                Text(headerText).bold().font(.title2)
+                Spacer()
+                Image(systemName: isOpen ? "chevron.down" : "chevron.right")
+                    .font(.system(size: 16))
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                withAnimation {
+                    isOpen.toggle()
+                }
+            }
         }
     }
 }
